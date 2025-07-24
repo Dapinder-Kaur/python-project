@@ -7,3 +7,5 @@ if __name__ == "__main__":
         print(f"hello world {sys.argv[1]}")
     else:
         print("Good Bye")
+        
+    
