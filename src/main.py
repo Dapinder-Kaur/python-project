@@ -1,7 +1,5 @@
 import numpy as np
 import sys
-import pandas
-
 
 
 if __name__ == "__main__":
