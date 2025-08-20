@@ -1,4 +1,7 @@
 # python-project
+## About this project
+
+This project is for having several files that can then be integrated together.
 
 # Instructions
 
@@ -14,9 +17,9 @@ set-ExecutionPolicy  RemoteSigned
 ```
 
 
-- Previously, the execution policy was Restricted, in case you might wanna go back and chnage it.
+- Previously, the execution policy was Restricted, in case you might wanna go back and change it.
 
-- To get the current execution policy, you run the powershell in administrator mode, and type:
+- To get the current execution policy, you can run the powershell in administrator mode, and type:
 
  ```
  get-ExecutionPolicy
