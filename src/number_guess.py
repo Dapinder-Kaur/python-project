@@ -18,7 +18,7 @@ while True:
         else:
             print("You guessed the number correctly!") 
             break
-            sys.exit(0)
+            
         print("Try again!")
     except KeyboardInterrupt:
         sys.exit(0)
