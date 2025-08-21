@@ -1,3 +1,10 @@
+"""
+This is the mastermind game that will:
+- Tell you if any of your guessed colors are in correct or incorrect positions.
+- If you gussed a color that is not in the code, it will not count towards correct or incorrect positions.
+"""
+
+
 import random
 
 COLORS = ['R', 'G', 'B', 'Y', 'W', 'O']
