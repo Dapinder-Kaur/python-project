@@ -54,4 +54,24 @@ def check_code(guess, real_code):
 
     return correct_pos, incorrect_pos
 
+def game():
+    print(f"Welcome to mastermind! you have {TRIES} tries to guess the code.")
+    print(f"The valid colors are:", *COLORS)
+
+    code = generate_code()
+    for attempts in range(1, TRIES + 1):
+        guess = guess_code()
+        correct_pos, incorrect_pos = check_code(guess, code)
+
+        if correct_pos == CODE_LENGTH:
+            print(f"You guessed the code in {attempts} tries")
+            break
+
+        print(f"Correct Positions: {correct_pos}, Incorrect Positions: {incorrect_pos}")
+
+    else:
+        print("You are out of tries. the code was", *code)
+
+if __name__ == "__main__":
+    game()
 
